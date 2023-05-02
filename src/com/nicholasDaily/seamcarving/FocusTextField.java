@@ -1,4 +1,4 @@
-package com.unitedhuskies.seamcarving;
+package com.nicholasDaily.seamcarving;
 
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;

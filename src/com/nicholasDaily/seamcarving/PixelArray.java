@@ -1,4 +1,4 @@
-package com.unitedhuskies.seamcarving;
+package com.nicholasDaily.seamcarving;
 
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
