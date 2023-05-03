@@ -4,11 +4,14 @@ Java GUI application for seam carving that takes user input to assist in preserv
 
 **Filter White:**
   
-  -if checked pixels that are lighter get filtered out<br>
+  -lighter pixels get filtered out first<br>
   -brush color will become black
+ 
+ **Filter Black:**
   
-  -if unchecked pixels that are darker will get filtered out<br>
-  -brush color will become white<br>
+  -darker pixels get filtered out first<br>
+  -brush color will become white
+  
  
  **Image filtering:**
   
@@ -33,7 +36,7 @@ Java GUI application for seam carving that takes user input to assist in preserv
 **NOTICE:**
 
 There is no way to undo brush strokes individually.              
-Making an adjustment to the kernels will reset all brush strokes.
+Making an adjustment to the kernels will reset all brush strokes so add your brush strokes last.
 
 
 Application does not currently have any progress indication after hitting the run button, but will resume function upon completing the carving progress at which time you can save the resulting image. Making a modification to the kernels will reset all progress so if you would like to save the resulting image do it before modifying any of the filtering tools. 
